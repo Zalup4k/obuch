@@ -270,3 +270,37 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.header-menu-list {
+  display: flex;
+  column-gap: 40px;
+}
+
+a {
+  color:  var(--color-light);
+}
+
+.header-menu-link {
+  text-transform: uppercase;
+  height: 90px;
+  align-items: center;
+  font-size: 16;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+a:hover {
+  color: var(--color-gray);
+  transition-duration: var(--transition-duration);
+}
