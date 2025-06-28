@@ -270,6 +270,22 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+.button {
+  border: 0;
+  display: inline-flex;
+  align-items: center;
+  height: 60px;
+  padding-inline: 46px;
+  color: var(--color-light);
+  background-color: var(--color-red);
+  border-radius: var(--border-radius);
+}
+
+.button:hover {
+  background-color: #B82B3A;
+  transition-duration: var(--transition-duration);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -303,4 +319,22 @@ a {
 a:hover {
   color: var(--color-gray);
   transition-duration: var(--transition-duration);
+}
+
+.dropdown-header {
+  display: inline-flex;
+  align-items: center;
+}
+
+.arrow {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  top: -8px;
+
+}
+
+.header-menu-item:hover {
+    color: var(--color-gray);
+    transition-duration: var(--transition-duration);
 }
